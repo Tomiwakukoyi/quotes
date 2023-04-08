@@ -1,5 +1,10 @@
 import React from "react";
 import "./Contact.scss";
+import PinterestIcon from "@mui/icons-material/Pinterest";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import GoogleIcon from "@mui/icons-material/Google";
+import TwitterIcon from "@mui/icons-material/Twitter";
 
 const Contact = () => {
   return (
@@ -10,7 +15,13 @@ const Contact = () => {
           <input type="text" placeholder="Enter your email..." />
           <button>JOIN US</button>
         </div>
-        <div className="icons"></div>
+        <div className="icons">
+          <FacebookIcon />
+          <PinterestIcon />
+          <InstagramIcon />
+          <GoogleIcon />
+          <TwitterIcon />
+        </div>
       </div>
     </div>
   );
